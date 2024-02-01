@@ -17,6 +17,7 @@ import {
 
 import { ISettingRegistry } from '@jupyterlab/settingregistry';
 
+
 /**
  * Initialization data for the myextension extension.
  */
@@ -65,7 +66,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
       launcher.add({
         command: commandId,
         category: 'My Extension', // Choose an appropriate category for your extension in the launcher
-        rank: 1 ,// Set the rank to control the position in the launcher
+        rank: 1,// Set the rank to control the position in the launcher
       });
     }
   }

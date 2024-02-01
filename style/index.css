@@ -1,1 +1,8 @@
 @import url('base.css');
+
+.icon {
+    background: url('http://www.w3.org/2000/svg') no-repeat center center;
+    background-size: contain;
+    width: 24px; /* Adjust the width and height as needed */
+    height: 24px;
+  }
