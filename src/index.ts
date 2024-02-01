@@ -67,6 +67,8 @@ const plugin: JupyterFrontEndPlugin<void> = {
         command: commandId,
         category: 'My Extension', // Choose an appropriate category for your extension in the launcher
         rank: 1,// Set the rank to control the position in the launcher
+        kernelIconUrl: '<i class="fa fa-play">play</i>', // Use the Font Awesome icon HTML
+        // onClick: () => app.commands.execute(commandId, { isPalette: false })
       });
     }
   }
